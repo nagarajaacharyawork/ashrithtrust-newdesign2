@@ -164,20 +164,7 @@ export function Hero() {
         </motion.div>
       </motion.div>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 2.6, duration: 1 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-[10px] uppercase tracking-[0.4em] text-white/45 lg:left-6 lg:translate-x-0"
-      >
-        <motion.span
-          className="block"
-          animate={{ y: [0, 7, 0] }}
-          transition={{ duration: 2.6, repeat: Infinity, ease: "easeInOut" }}
-        >
-          Scroll
-        </motion.span>
-      </motion.div>
+
     </section>
   );
 }
